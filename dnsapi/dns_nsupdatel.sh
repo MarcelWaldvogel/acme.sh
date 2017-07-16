@@ -3,7 +3,7 @@
 ########  Public functions #####################
 
 #Usage: dns_nsupdatel_add   _acme-challenge.www.domain.com   "XKrxpRBosdIKFzxW_CT3KLZNf6q0HG9i01zxXp5CPBs"
-dns_nsupdate_add() {
+dns_nsupdatel_add() {
   fulldomain=$1
   txtvalue=$2
   _info "adding ${fulldomain}. 60 in txt \"${txtvalue}\""
